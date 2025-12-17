@@ -31,7 +31,7 @@ Source setup.bash in your workspace:
 
 Grant user access to i2c, need to reboot afterwards:
 
-    sudo usermod <user-name> -aG i2c
+    sudo usermod <user-name> -aG i2c # or this: sudo chmod +777 /dev/i2c-*
     
 Launch it:
 
